@@ -16,7 +16,9 @@ Commands:
 
 6- wcat filepath > filename2path => put all the content of filename into filename2 by overriding and also creates filename2 if it doesn't exist. 
 
-7- wcat filename2path >> filename2path => append all the content of filename into filename2✔ 8- node wcat -s filename > filename2 =>get the file content of filename remove large spaces and save the output in filename2 ✔ We can mix and match the options.
+7- wcat filename2path >> filename2path => append all the content of filename into filename2
+
+8- node wcat -s filename > filename2 =>get the file content of filename remove large spaces and save the output in filename2. We can mix and match the options.
 
 Edge cases:
 1- If file entered is not found then it gives file does not exist error.
